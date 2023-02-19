@@ -32,8 +32,8 @@ sample corda node rpc info in Basic/tutorial-applestamp/build/nodes/Peter/node.c
 
 each node can connect.
 
-![image-20230219213442563](./image/screenshotLogin.png)
+![image-20230219213442563](image/screenshotLogin.png)
 
-![image-20230219213442563](./image/screenshotDashboard.png)
+![image-20230219213442563](image/screenshotDashboard.png)
 
-![image-20230219213442563](./image/screenshotNetwork.png)
+![image-20230219213442563](image/screenshotNetwork.png)

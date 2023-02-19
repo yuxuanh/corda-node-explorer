@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+  node-explorer:
+    image: r3dockerhub/node-explorer:v0.1.2
+    ports:
+      - "3000:80"
+    restart: always
+    depends_on:
+      - node-server
+
+  node-server:
+    image: r3dockerhub/node-server:v0.1.2
+    ports:
+      - "8580:8580"
+    restart: always
+    volumes:
+      - ${CORDAPPS_PATH}:/cordapps
+    network_mode: "host"
